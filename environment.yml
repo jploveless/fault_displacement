@@ -1,0 +1,17 @@
+name: faultdis
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - pyproj
+  - pandas
+  - jupyterlab
+  - ipympl
+  - meshio
+  - tqdm
+  - h5py
+  - cutde
+  - pip
+  - pip:
+      - gmsh
